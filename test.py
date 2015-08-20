@@ -1,4 +1,6 @@
 
 for i in ["aa", "ii", "uu"]:
-  print i , "..."
-
+  if i == "aa":
+    print i , "aaa...aaa"
+  else:
+    print i , "..."

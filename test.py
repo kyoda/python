@@ -5,4 +5,4 @@ for i in ["aa", "ii", "uu"]:
   elif i == "ii":
     print i,"1234567890"[:-3]
   else:
-    print i , "..."
+    print i,    "1234567890"[-3:]

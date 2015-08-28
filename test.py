@@ -6,3 +6,4 @@ for i in ["aa", "ii", "uu"]:
     print i, "1234567890"[:-3][2:]
   else:
     print i, "1234567890"[-3][2:][:1:2]
+    print "ee""oo","ee\"\"oo"

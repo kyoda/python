@@ -5,5 +5,5 @@ for i in ["aa", "ii", "uu"]:
   elif i == "ii":
     print i, "1234567890"[:-3][2:]
   else:
-    print i, "1234567890"[-3][2:][:1:2]
+    print i, "1234567890"[-3][2:][:1:2][:]
     print "ee""oo","ee\"\"oo"

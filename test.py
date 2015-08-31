@@ -1,3 +1,6 @@
+a = {'aa': 1, 'bb': 'ni'}
+print a['aa']
+print a
 
 for i in ["aa", "ii", "uu"]:
   if i == "aa":

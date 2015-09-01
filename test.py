@@ -1,6 +1,8 @@
 a = {'aa': 1, 'bb': 'ni'}
+b = 3
 print a['aa']
-print a
+print a, b
+print 'a' 'b''c'
 
 for i in ["aa", "ii", "uu"]:
   if i == "aa":

@@ -1,6 +1,6 @@
 a = {'aa': 1, 'bb': 'ni'}
 b = 3
-print a['aa']
+#print a['aa', {'dd': 'ee'}]
 print a, b
 print 'a' 'b''c'
 

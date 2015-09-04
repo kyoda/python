@@ -1,5 +1,5 @@
 a = {'aa': 1, 'bb': 'ni'}
-b = 3
+b = [3, 2, 1]
 print a, b
 print 'a' 'b''c'
 

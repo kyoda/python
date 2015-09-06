@@ -3,9 +3,9 @@ b = [3, 2, 1]
 print a, b
 print 'a' 'b''c'
 
-for i in ["aa", "ii", "uu"]:
+for n, i in enumerate(["aa", "ii", "uu"]):
   if i == "aa":
-    print i , "1234567890"[:-3]
+    print n, i , "1234567890"[:-3]
   elif i == "ii":
     print i, "1234567890"[:-3][2:]
   else:

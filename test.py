@@ -11,3 +11,5 @@ for n, i in enumerate(["aa", "ii", "uu"]):
   else:
     print n,      i, "1234567890"[-3][2:][:1:2][:]
     print "ee""oo","ee\"\"oo"
+
+print {x: x**2 for x in (2, 4, 6)}

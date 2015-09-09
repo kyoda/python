@@ -13,3 +13,5 @@ for n, i in enumerate(["aa", "ii", "uu"]):
     print "ee""oo","ee\"\"oo"
 
 print {x: x**2 for x in (2, 4, 6)}
+print [x**2 for x in (2, 4, 6)]
+

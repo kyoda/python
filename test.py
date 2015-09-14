@@ -20,4 +20,6 @@ for n, i in enumerate(["aa", "ii", "uu"]):
 
 
     print "aiueo"
+  print "kakikukeko"
+print "sashisuseso"
 

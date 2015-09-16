@@ -1,3 +1,8 @@
+def add(x, y):
+  return x+y
+
+print add(111, 222)
+
 a = {'aa': 1, 'bb': 'ni'}
 b = [3, 2, 1]
 print a, b

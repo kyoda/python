@@ -1,5 +1,7 @@
+
 def add(x, y):
   return x+y
+
 
 print add(111, 222)
 
@@ -24,7 +26,7 @@ for n, i in enumerate(["aa", "ii", "uu"]):
 
 
 
-    print "aiueo"
-  print "kakikukeko"
-print "sashisuseso"
+    print "in else"
+  print "in for"
+print "out"
 

@@ -5,9 +5,9 @@ def add(x, y):
 
 print add(111, 222)
 
-a = {'aa': 1, 'bb': 'ni'}
+a = {'name': [1, 2, 3, 4, 5], 'bb': 'ni'}
 b = [3, 2, 1]
-print a, b
+print a['name']
 print 'a' 'b''c'
 
 print {x: x**2 for x in (2, 4, 6, 8 ,10)}

@@ -7,6 +7,10 @@ print add(111, 222)
 
 a = {'name': [1, 2, 3, 4, 5], 'bb': 'ni'}
 b = [3, 2, 1]
+for n, i in enumerate(a):
+  print 'machida'
+  print n, i, a[i]
+
 print a['name']
 print 'a' 'b''c'
 

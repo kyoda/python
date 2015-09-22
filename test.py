@@ -11,6 +11,9 @@ for n, i in enumerate(a):
   print 'machida'
   print n, i, a[i]
 
+for i in a:
+  print i
+
 print a['name']
 print 'a' 'b''c'
 

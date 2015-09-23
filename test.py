@@ -1,9 +1,13 @@
 
 def add(x, y):
-  return x+y
+  return x + y
 
 
 print add(111, 222)
+
+dic = {'name': 'machida', 'age': 17}
+for i in dic:
+  print i
 
 a = {'name': [1, 2, 3, 4, 5], 'bb': 'ni'}
 b = [3, 2, 1]

@@ -8,6 +8,9 @@ print add(111, 222)
 dic = {'name': 'machida', 'age': 17, 'num': [1, 2, 3, 4]}
 for n, i in enumerate(dic):
   print "%d: %s => %s" % (n, i, dic[i])
+arr = [1, 2, 3, 4, 5, 6, 'name']
+for n, i in enumerate(arr):
+  print '%d: %s' % (n, i)
 
 #a = {'name': [1, 2, 3, 4, 5], 'bb': 'ni'}
 #b = [3, 2, 1]

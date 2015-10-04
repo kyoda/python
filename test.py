@@ -6,9 +6,11 @@ def add(x, y):
 print add(111, 222)
 
 print "###################################"
+
 dic = {'name': 'machida', 'age': 17, 'num': [1, 2, 3, 4]}
 for n, i in enumerate(dic):
   print "%d: %s => %s" % (n, i, dic[i])
+
 print "###################################"
 
 for key, value in dic.iteritems():

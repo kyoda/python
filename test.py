@@ -4,6 +4,8 @@ def add(x, y):
   return x + y
 
 
+print re.compile('[1-9]')
+
 print add(111, 222)
 
 print "###################################"

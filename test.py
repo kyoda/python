@@ -4,7 +4,8 @@ def add(x, y):
   return x + y
 
 
-print re.compile('[1-9]')
+pattern = re.compile('[1-9]')
+print pattern.match("123asdf").group()
 
 print add(111, 222)
 

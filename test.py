@@ -6,7 +6,7 @@ def add(x, y):
 
 pattern = re.compile('[1-9]')
 a = pattern.match("123asdf")
-if a:
+if not a:
   print a.group()
 
 print add(111, 222)

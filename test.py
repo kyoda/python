@@ -8,8 +8,9 @@ pattern = re.compile('[1-9]')
 a = pattern.match("123asdf")
 if not a:
   print a.group()
+else:
+  print add(111, 222)
 
-print add(111, 222)
 
 print "###################################"
 

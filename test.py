@@ -8,6 +8,8 @@ pattern = re.compile('[1-9]')
 a = pattern.match("123asdf")
 if not a:
   print a.group()
+elif a:
+  print "aiu"
 else:
   print add(111, 222)
 

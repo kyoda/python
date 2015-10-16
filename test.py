@@ -10,6 +10,7 @@ if not a:
   print a.group()
 elif a:
   print "aiu"
+  print a.group()
 else:
   print add(111, 222)
 

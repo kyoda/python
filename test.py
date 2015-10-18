@@ -9,17 +9,13 @@ a = pattern.match("123asdf")
 if not a:
   print a.group()
 elif a:
-  print "aiu"
-  print a.group()
-else:
   print add(111, 222)
+else:
+  dic = {'name': 'machida', 'age': 17, 'num': [1, 2, 3, 4]}
+  for n, i in enumerate(dic):
+    print "%d: %s => %s" % (n, i, dic[i])
 
 
-print "###################################"
-
-dic = {'name': 'machida', 'age': 17, 'num': [1, 2, 3, 4]}
-for n, i in enumerate(dic):
-  print "%d: %s => %s" % (n, i, dic[i])
 
 print "###################################"
 

@@ -19,8 +19,8 @@ else:
 
 print "###################################"
 
-for key, value in dic.iteritems():
-  print "%s: %s" % (key, value)
+#for key, value in dic.iteritems():
+#  print "%s: %s" % (key, value)
 
 print "###################################"
 #arr = [1, 2, 'age',  3, 4, 5, 6, 'name']

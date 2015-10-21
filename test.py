@@ -16,9 +16,6 @@ else:
     print "%d: %s => %s" % (n, i, dic[i])
 
 
-
-print "###################################"
-
 #for key, value in dic.iteritems():
 #  print "%s: %s" % (key, value)
 

@@ -16,7 +16,7 @@ else:
     print "%d: %s => %s" % (n, i, dic[i])
 
 
-for i in [1, 2]:
+for i in [1, 2, 3]:
   print i
 
 

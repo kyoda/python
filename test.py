@@ -17,8 +17,8 @@ else:
 
 
 for i in [1, 2, 3]:
-  print i
-
+  if i == 1:
+    print i
 
 #for key, value in dic.iteritems():
 #  print "%s: %s" % (key, value)

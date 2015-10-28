@@ -3,7 +3,7 @@ import re
 def add(x, y):
   return x + y
 
-
+dic = {'name': 'machida', 'age': 17, 'num': [1, 2, 3, 4]}
 pattern = re.compile('[1-9]')
 a = pattern.match("123asdf")
 if not a:
@@ -11,7 +11,6 @@ if not a:
 elif a:
   print add(111, 222)
 else:
-  dic = {'name': 'machida', 'age': 17, 'num': [1, 2, 3, 4]}
   for n, i in enumerate(dic):
     print "%d: %s => %s" % (n, i, dic[i])
 
@@ -22,9 +21,9 @@ for i in [1, 2, 3]:
   elif i == 2:
     print i
   else:
-    print i
-#for key, value in dic.iteritems():
-#  print "%s: %s" % (key, value)
+    for key, value in dic.iteritems():
+      print "%s: %s" % (key, value)
+
 
 print "###################################"
 #arr = [1, 2, 'age',  3, 4, 5, 6, 'name']

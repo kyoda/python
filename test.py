@@ -11,13 +11,12 @@ if not a:
 elif not  a:
   print add(111, 222)
 else:
-  for n, i in enumerate(dic):
-    print "%d: %s => %s" % (n, i, dic[i])
 
 
 for i in [1, 2, 3]:
   if i == 1:
-    print i
+    for n, i in enumerate(dic):
+      print "%d: %s => %s" % (n, i, dic[i])
   elif i == 2:
     print {x: x**2 for x in (2, 4, 6, 8 ,10)}
   else:

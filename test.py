@@ -8,9 +8,6 @@ pattern = re.compile('[1-9]')
 a = pattern.match("123asdf")
 if not a:
   print a.group()
-elif not  a:
-  print add(111, 222)
-else:
 
 
 for i in [1, 2, 3]:
@@ -19,6 +16,7 @@ for i in [1, 2, 3]:
       print "%d: %s => %s" % (n, i, dic[i])
   elif i == 2:
     print {x: x**2 for x in (2, 4, 6, 8 ,10)}
+    print add(111, 222)
   else:
     for key, value in dic.iteritems():
       print "%s: %s" % (key, value)

@@ -4,11 +4,11 @@ def add(x, y):
   return x + y
 
 dic = {'name': 'machida', 'age': 17, 'num': [1, 2, 3, 4]}
-pattern = re.compile('[1-9]')
 
 
 for i in [1, 2, 3]:
   if not a:
+    pattern = re.compile('[1-9]')
     a = pattern.match("123asdf")
     print a.group()
   if i == 1:
